@@ -1,0 +1,145 @@
+.general-container {
+  height: calc(100vh - 80px - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 600px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.24);
+}
+
+.img-container {
+  margin-right: 60px;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-container:hover {
+  cursor: pointer;
+}
+
+.user-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.574);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.camera-icon {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.edit {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.username {
+  color: rgb(98, 98, 98);
+  font-size: 22px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.321);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.change-picture {
+  width: 400px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.upload-txt {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  word-spacing: 1px;
+}
+
+.url-input {
+  margin: 30px 0;
+  padding: 10px;
+  border: 1px solid rgb(135, 135, 135);
+}
+
+.save-btn {
+  width: 80px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: #028484;
+  color: rgb(245, 245, 245);
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  transition: all 0.1s;
+}
+
+.save-btn:hover {
+  cursor: pointer;
+  background-color: #036f6f;
+}
+
+.close-icon-container {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon-container:hover {
+  background-color: rgba(0, 0, 0, 0.161);
+  cursor: pointer;
+}
+
+.close-icon {
+  font-size: 22px;
+  color: rgb(125 125 125);
+}

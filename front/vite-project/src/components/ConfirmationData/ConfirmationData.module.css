@@ -1,0 +1,64 @@
+.general-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmation-container {
+  margin: 30px auto 0 auto;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  color: rgb(53, 53, 53);
+  font-size: 22px;
+}
+
+.data {
+  color: rgb(117, 117, 117);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-right: 9px;
+}
+
+.confirmation-btn {
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: rgb(25, 115, 184);
+  color: rgb(245, 245, 245);
+  font-weight: 500;
+  transition: all 0.1s;
+}
+
+.confirmation-btn:hover {
+  cursor: pointer;
+  background-color: rgb(18, 91, 148);
+}
+
+.home-btn {
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: rgb(25, 115, 184);
+  color: rgb(245, 245, 245);
+  font-weight: 500;
+  transition: all 0.1s;
+}
+
+.home-btn:hover {
+  cursor: pointer;
+  background-color: rgb(18, 91, 148);
+}
+
+.confirmation-btn.disabled {
+  background-color: #989898;
+}
+
+.confirmation-btn.disabled:hover {
+  cursor: auto;
+}

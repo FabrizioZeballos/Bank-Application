@@ -1,0 +1,45 @@
+.btn {
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  background-color: #028484;
+  color: rgb(245, 245, 245);
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:hover > .slider-bg {
+  transform: translateX(-40px) rotate(12deg);
+}
+
+.txt {
+  z-index: 1;
+}
+
+.slider-bg {
+  width: 150%;
+  height: 200%;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  background-color: #027171;
+  transform: translateX(-220px) rotate(12deg);
+  z-index: -1;
+  transition: all 0.8s;
+}
+
+.btn-white {
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+.slider-bg-white {
+  background-color: rgb(16, 16, 16);
+}

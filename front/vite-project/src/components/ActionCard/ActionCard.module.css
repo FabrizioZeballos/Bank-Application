@@ -1,0 +1,27 @@
+.card {
+  box-sizing: border-box;
+  border: 1px solid rgb(184, 184, 184);
+  margin: 20px 30px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.1s;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.29);
+  transform: translateY(-10px);
+  color: #028484;
+}
+
+.action {
+  font-size: 15px;
+  font-weight: 500;
+}

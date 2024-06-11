@@ -1,0 +1,35 @@
+.actions-navbar {
+  padding-left: 100px;
+  height: 44px;
+  background-color: #eee;
+}
+
+.actions-list {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.action {
+  display: inline-block;
+  height: 100%;
+}
+
+.action-link {
+  box-sizing: border-box;
+  margin-right: 30px;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid transparent;
+  transition: all 0.1s;
+}
+
+.action-link:hover {
+  border-bottom: 4px solid rgb(40, 135, 208);
+}

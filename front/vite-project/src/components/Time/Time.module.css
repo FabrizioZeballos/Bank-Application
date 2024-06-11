@@ -1,0 +1,26 @@
+.time {
+  box-sizing: border-box;
+  width: 70px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid rgb(25, 115, 184);
+  color: rgb(25, 115, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.04s;
+}
+
+.time:hover {
+  cursor: pointer;
+  background-color: rgb(25, 115, 184);
+  color: rgb(245, 245, 245);
+}
+
+.time-active {
+  background-color: rgb(25, 115, 184);
+  color: rgb(245, 245, 245);
+}

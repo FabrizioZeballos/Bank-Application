@@ -1,0 +1,30 @@
+.my-account-container {
+  margin-right: 12px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.my-account-container:hover {
+  cursor: pointer;
+}
+
+.my-account {
+  font-size: 15px;
+  margin: 0 14px;
+}
+
+.user-img {
+  height: 22px;
+}
+
+.circle-user {
+  font-size: 17px;
+}
+
+.chevron-icon {
+  font-size: 13px;
+  transition: all 0.3s;
+}
